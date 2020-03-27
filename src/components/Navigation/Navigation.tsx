@@ -20,8 +20,8 @@ export const Navigation = () => {
           <ToolbarContainer>
             <Nav>
               <NavItem>
-                <Link href="/[lang]/about" as={`/${locale}/about`}>
-                  <NavLink>{translate("root.aboutPage")}</NavLink>
+                <Link href="/[lang]/" as={`/${locale}/`}>
+                  <NavLink>{translate("nav.home")}</NavLink>
                 </Link>
               </NavItem>
             </Nav>

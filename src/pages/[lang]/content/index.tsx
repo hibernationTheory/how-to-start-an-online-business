@@ -2,16 +2,16 @@ import React from "react";
 
 import { Layout, withLocale } from "src/components";
 import { useTranslation } from "src/utilities/translations";
-import { LandingSection } from "src/sections";
+import { ContentSection } from "src/sections";
 
-const IndexPage = () => {
+const ContentPage = () => {
   const { translate } = useTranslation();
 
   return (
     <Layout title={translate("root.title")}>
-      <LandingSection />
+      <ContentSection />
     </Layout>
   );
 };
 
-export default withLocale(IndexPage);
+export default withLocale(ContentPage);
